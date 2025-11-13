@@ -16,7 +16,7 @@ sys.path.append(utils_dir)
 
 from p4_pd_rpc.ttypes import *
 from res_pd_rpc.ttypes import *
-from utils import *
+from utils import * 
 
 import importlib
 from thrift.transport import TSocket
