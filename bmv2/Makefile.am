@@ -3,7 +3,7 @@ ACLOCAL_AMFLAGS = ${ACLOCAL_FLAGS} -I m4
 AM_CPPFLAGS += -DBMV2
 AM_CPPFLAGS += -I$(top_builddir)/p4-build
 AM_CPPFLAGS += -isystem$(includedir)
-
+ 
 lib_LTLIBRARIES = libbmswitchp4.la
 libbmswitchp4_la_CPPFLAGS = $(AM_CPPFLAGS)
 libbmswitchp4_la_LIBADD =
