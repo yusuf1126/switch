@@ -8,7 +8,7 @@ AC_PREREQ([2.69])
 AC_INIT([switch], [0.1], [])
 AM_PATH_PYTHON([2.7],,[:])
 # This prevents autotools from automatically adding -O2 flag.
-: ${CXXFLAGS=""}
+: ${CXXFLAGS=""} 
 AM_INIT_AUTOMAKE([foreign subdir-objects])
 AM_SILENT_RULES([yes])
 AC_CONFIG_HEADERS([config.h])
