@@ -10,7 +10,7 @@
 #
 #   Check for baseline language coverage in the compiler for the C++11
 #   standard; if necessary, add switches to CXXFLAGS to enable support.
-#
+# 
 #   The first argument, if specified, indicates whether you insist on an
 #   extended mode (e.g. -std=gnu++11) or a strict conformance mode (e.g.
 #   -std=c++11).  If neither is specified, you get whatever works, with
