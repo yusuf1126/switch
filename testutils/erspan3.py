@@ -5,7 +5,7 @@ def match_erspan3_pkt(exp_pkt, pkt, ignore_tstamp=True):
     Compare ERSPAN_III packets, ignore the timestamp value. Just make sure
     it is non-zero
     """
-    if ignore_tstamp:
+    if ignore_tstamp: 
         erspan3 = pkt.getlayer(ERSPAN_III)
         if erspan3 == None:
             #self.logger.error("No ERSPAN pkt received")
