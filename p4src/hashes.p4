@@ -11,7 +11,7 @@ header_type hash_metadata_t {
 
 metadata hash_metadata_t hash_metadata;
 
-field_list lkp_ipv4_hash1_fields {
+field_list lkp_ipv4_hash1_fields { 
     ipv4_metadata.lkp_ipv4_sa;
     ipv4_metadata.lkp_ipv4_da;
     l3_metadata.lkp_ip_proto;
