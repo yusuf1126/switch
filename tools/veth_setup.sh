@@ -11,7 +11,7 @@ do
 #1 2 3 4 5 6 7 125
     intf0="veth$(($idx*2))"
     intf1="veth$(($idx*2+1))"
-    idx=$((idx + 1))
+    idx=$((idx + 1)) 
     if ! ip link show $intf0 &> /dev/null; then
         ip link add name $intf0 type veth peer name $intf1
         ip link set dev $intf0 up
